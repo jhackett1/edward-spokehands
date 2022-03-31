@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "ts-node index"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@abandonware/noble": "^1.9.2-15",
+    "cross-fetch": "^3.1.5",
     "dotenv": "^16.0.0",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^3.2.3",
+    "ts-node": "^10.7.0"
   }
 }
