@@ -12,7 +12,7 @@ it works by:
 4. authenticates your bluetooth device with the bike using a nonce challenge
 5. reading info and issuing commands securely, using the encryption key to encrype some payloads
 
-this is very similar to what the vanmoof and moofer app does, but it's nice to have custom control over the ui, as different things are useful to different users.
+this is very similar to what the vanmoof and [moofer](https://moofer.ademagroup.com/) app does, but it's nice to have custom control over the ui for talking to the bike.
 
 at the moment, only the x3 is known to be supported (because it's what i have).
 
