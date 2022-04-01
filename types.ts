@@ -1,3 +1,5 @@
+import { Peripheral } from "@abandonware/noble"
+
 export interface AuthenticationData {
   token: string
   refreshToken: string
@@ -14,3 +16,5 @@ export interface CustomerData {
     }[]
   }
 }
+
+export type Bike = Peripheral
