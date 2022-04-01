@@ -5,6 +5,8 @@ export const endpoint = "https://my.vanmoof.com/api/v8"
 /** the bluetooth uuid emitted by s3/x3s */
 export const sx3Uuid = "6acc5540-e631-4069-944d-b8ca7598ad50"
 
+"6acc5501-e631-4069-944d-b8ca7598ad50"
+
 /** ble service and characteristic ids for the s3/x3 */
 export const x3Profile = {
   security: {

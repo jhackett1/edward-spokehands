@@ -1,4 +1,5 @@
 import { Peripheral } from "@abandonware/noble"
+import { ModeOfOperation } from "aes-js"
 
 export interface AuthenticationData {
   token: string
@@ -18,3 +19,5 @@ export interface CustomerData {
 }
 
 export type Bike = Peripheral
+
+export type Cipher = ModeOfOperation.ModeOfOperationECB

@@ -4,7 +4,7 @@ import { AuthenticationData, CustomerData } from "../types"
 import { apiKey, endpoint } from "./config"
 
 /** using the vanmoof username and password, return the first bike's encryption key */
-export const getEncryptionKey = async (): Promise<string> => {
+export const getEncryptionKey = async (): Promise<string[]> => {
   const { USERNAME, PASSWORD } = process.env
 
   // get auth token
@@ -32,5 +32,5 @@ export const getEncryptionKey = async (): Promise<string> => {
   const { encryptionKey, passcode, userKeyId } =
     data?.data?.bikeDetails?.[0]?.key
 
-  return encryptionKey
+  return [encryptionKey, userKeyId]
 }
