@@ -1,8 +1,11 @@
-export const apiKey = "fcb38d47-f14b-30cf-843b-26283f6a5819" // universal vanmoof api key, from their app
+/**  universal vanmoof api key, from their app. not a secret */
+export const apiKey = "fcb38d47-f14b-30cf-843b-26283f6a5819"
+/**  undocumented vanmoof api endpoint, used by their app */
 export const endpoint = "https://my.vanmoof.com/api/v8"
+/** the bluetooth uuid emitted by s3/x3s */
 export const sx3Uuid = "6acc5540-e631-4069-944d-b8ca7598ad50"
 
-/** service and characteristic ids for the s3 and x3 */
+/** ble service and characteristic ids for the s3/x3 */
 export const x3Profile = {
   security: {
     _SERVICE_UUID: "6acc5500-e631-4069-944d-b8ca7598ad50",
